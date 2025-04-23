@@ -20,7 +20,7 @@ const Header = () => {
       <nav className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center space-x-2">
-            <img src="/im2.png" alt="Talvox Logo" className="h-14 w-100" />
+            <img src="/logo1.jpg" alt="Talvox Logo" className="h-12 w-100" />
             <span className="text-xl font-bold"></span>
           </Link>
 

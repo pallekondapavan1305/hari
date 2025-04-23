@@ -165,6 +165,12 @@ const Home = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
+                image: "https://textileinsights.in/wp-content/uploads/2024/03/Avient-1.jpg",
+                title: "Hardrada",
+                category: "Athletic Apparel",
+                link: "https://hardrada.in/"
+              },
+              {
                 image: "https://cdn.thewirecutter.com/wp-content/media/2023/11/gamingconsoles-2048px-00694.jpg",
                 title: "e2z Store",
                 category: "Gaming & Electronics",
@@ -276,7 +282,7 @@ const Home = () => {
                 image: "https://okcredit-blog-images-prod.storage.googleapis.com/2020/12/shutterstock_195102122.jpg",
                 title: "TIGI HR",
                 category: "Recruitment Agency",
-                link: "https://tigihr.com/​​​"
+                link: "https://tigihr.com/employer​"
               }
 
 
