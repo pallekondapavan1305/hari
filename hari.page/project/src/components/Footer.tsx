@@ -1,6 +1,6 @@
 //import React from 'react';
-import { useRef } from 'react';
-import emailjs from 'emailjs-com';
+import { useRef } from "react";
+import emailjs from "emailjs-com";
 // import { Facebook, Instagram, Linkedin } from 'lucide-react';
 
 const Footer = () => {
@@ -12,17 +12,17 @@ const Footer = () => {
     if (form.current) {
       emailjs
         .sendForm(
-          'service_dak7bc3',       // Replace with your EmailJS service ID
-          'template_9spannn',      // Replace with your EmailJS template ID
+          "service_dak7bc3", // Replace with your EmailJS service ID
+          "template_9spannn", // Replace with your EmailJS template ID
           form.current,
-          '-lx7ZauRqyLdots-a'      // Replace with your EmailJS public key
+          "-lx7ZauRqyLdots-a" // Replace with your EmailJS public key
         )
         .then(
           (result) => {
-            console.log('Email sent successfully:', result.text);
-            alert('Message sent successfully!');
+            console.log("Email sent successfully:", result.text);
+            alert("Message sent successfully!");
             form.current?.reset();
-          },
+          }
           // (error) => {
           //   console.error('Error sending email:', error.text);
           //   alert('Failed to send message.');
@@ -38,11 +38,13 @@ const Footer = () => {
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div>
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
-                You have plenty to deal with.<br />
+                You have plenty to deal with.
+                <br />
                 Leave the website to us!
               </h2>
               <p className="text-gray-400">
-                We've got the skills, you've got the vision. Let's make something epic.
+                We've got the skills, you've got the vision. Let's make
+                something epic.
               </p>
             </div>
             <div>
