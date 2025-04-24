@@ -1,7 +1,7 @@
 //import React from 'react';
 import { useRef } from 'react';
 import emailjs from 'emailjs-com';
-import { Facebook, Instagram, Linkedin } from 'lucide-react';
+// import { Facebook, Instagram, Linkedin } from 'lucide-react';
 
 const Footer = () => {
   const form = useRef<HTMLFormElement>(null);
@@ -84,8 +84,8 @@ const Footer = () => {
         </div>
 
         {/* Footer Content */}
-        <div className="border-t border-gray-800 pt-16">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
+        <div className="border-t border-gray-800 pt-00">
+          {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
             <div className="text-center md:text-left">
               <img src="../im2.png" alt="Your Company" className="h-14 w-100" />
             </div>
@@ -105,7 +105,7 @@ const Footer = () => {
                 <Instagram className="w-6 h-6" />
               </a>
             </div>
-          </div>
+          </div> */}
           <div className="text-center text-gray-400 text-sm mt-16">
             <p>© {new Date().getFullYear()} Talvox. All rights reserved.</p>
           </div>

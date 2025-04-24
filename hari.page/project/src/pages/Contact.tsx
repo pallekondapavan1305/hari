@@ -309,10 +309,10 @@ const Contact: React.FC = () => {
           transition={{ duration: 0.6, delay: 0.6 }}
           className="mt-6"
         >
-          <div className="bg-gray-100 rounded-3xl p-8 flex items-center gap-4">
+          {/* <div className="bg-gray-100 rounded-3xl p-8 flex items-center gap-4">
             <MapPin className="w-8 h-8 flex-shrink-0" />
             <p className="text-xl">8-3-191/57/1 PLOT NO:54/A,Vengal Rao Nagar, Hyderabad, Telangana 500038.</p>
-          </div>
+          </div> */}
         </motion.div>
       </div>
 
